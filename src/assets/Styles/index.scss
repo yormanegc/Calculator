@@ -1,0 +1,18 @@
+//Mixins
+@import "./Mixins/centerDefault.scss";
+
+//Components
+@import "./Calculator/calculator.scss";
+@import "./App/app.scss";
+@import "./Buttons/buttons.scss";
+@import "./Window/window.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}

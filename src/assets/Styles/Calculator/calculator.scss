@@ -1,0 +1,10 @@
+.calculator {
+  background-color: rgba(255, 255, 255, 0.212);
+  backdrop-filter: blur(30px);  
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  @include centerDefault(flex, start, center);
+  flex-direction: column;
+  padding-top: 40px;
+}

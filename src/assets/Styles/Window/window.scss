@@ -1,0 +1,15 @@
+.window {
+  width: 100%;
+  @include centerDefault(flex, center, center);
+  &__input {
+    color: white;
+    height: 50px;
+    width: 80%;
+    font-size: 2em;
+    padding: 0 30px 0 6px;
+    background: #120d1d;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+}
